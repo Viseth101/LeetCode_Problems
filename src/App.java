@@ -1,29 +1,6 @@
-import java.util.Scanner;
 
-class Solution1 {
-    public int[] twoSum(int[] nums, int target) {
-        for (int i = 0; i < nums.length; i++) {
-            for (int j = i+1; j < nums.length; j++) {
-                if(nums[i] + nums[j] == target) return new int[]{i, j};
-            }
-        }
-        return nums;
-    }
-}
 public class App {
     public static void main(String[] args) throws Exception {
-        Scanner sc = new Scanner(System.in);
         
-        String input = sc.nextLine();
-        String[] numsString = input.substring(1, input.length() - 1).split(",");
-        int[] nums = new int[numsString.length];
-        for (int i = 0; i < nums.length; i++) {
-            nums[i] = Integer.parseInt(numsString[i].trim());
-        }
-        int target = sc.nextInt();
-
-        Solution1 sl = new Solution1();
-        int[] indices = sl.twoSum(nums, target);
-        System.out.printf("[%d,%d]", indices[0], indices[1]);
     }
 }
