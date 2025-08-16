@@ -1,5 +1,5 @@
 
-class Solution {
+class Solution2 {
     public boolean isPalindrome(int x) {
         // Negative numbers are not palindromes
         if (x < 0) {
@@ -19,7 +19,7 @@ class Solution {
 
 public class palindrome {
     public static void main(String[] args) {
-        Solution sl = new Solution();
+        Solution2 sl = new Solution2();
         System.out.println(sl.isPalindrome(121));
     }
 }
