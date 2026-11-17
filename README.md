@@ -1,5 +1,19 @@
-# LeetCode_Problems - My Awesome Java Project
+# LeetCode & Data Structure Practice (Java)
 
-This is the combined README for my LeetCode Problems and Java Project.
+My solutions to LeetCode problems and data-structure exercises, written in Java. Each file has its own `main` method for quick testing.
 
-It contains the setup instructions, etc.
+## Contents
+
+| File | Problem / topic |
+|---|---|
+| `src/TwoSum.java` | Two Sum (`twoSum`) |
+| `src/RomanDecoder.java` | Roman to Integer (`romanToInt`) |
+| `src/palindrome.java` | Palindrome check (`isPalindrome`) |
+| `src/DS_Exercise_BST.java`, `src/Tree.java` | Binary search tree: insert, pre-order traversal, height, path finding |
+
+## How to run
+
+```bash
+javac -d bin src/*.java
+java -cp bin TwoSum   # or RomanDecoder, palindrome, DS_Exercise_BST
+```
