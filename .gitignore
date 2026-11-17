@@ -1,0 +1,7 @@
+# Compiled Java classes
+bin/
+*.class
+
+# Editor settings
+.vscode/
+.idea/
